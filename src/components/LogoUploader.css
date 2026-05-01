@@ -1,0 +1,64 @@
+.logo-uploader-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.logo-uploader-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: #a855f7; /* mor tonları */
+}
+
+.btn-logo-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  background: linear-gradient(to right, #a855f7, #9333ea);
+  color: white;
+  font-weight: 600;
+  padding: 14px 0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.btn-logo-upload:hover {
+  background: linear-gradient(to right, #9333ea, #7e22ce);
+}
+
+.logo-preview-wrapper {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-preview-card {
+  position: relative;
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 16px;
+  border: 2px solid #e5e7eb;
+}
+
+.logo-preview-image {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  border-radius: 8px;
+}

@@ -1,0 +1,81 @@
+ /* CanvasPreview.css */
+
+.canvas-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.canvas-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 650px;
+}
+
+.canvas-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.canvas-area {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.canvas-display {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.canvas-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.nav-btn {
+  background: #f0f0f0;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.download-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.btn-download, .btn-download-all {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-download:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.share-text {
+  text-align: center;
+  color: #555;
+}

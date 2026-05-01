@@ -1,0 +1,16 @@
+.uploader-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.uploader-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.uploader-card img {
+  border-radius: 12px;
+}
+
+.uploader-card button {
+  outline: none;
+}

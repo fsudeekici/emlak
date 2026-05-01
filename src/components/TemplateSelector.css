@@ -1,0 +1,69 @@
+.template-selector-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.template-selector-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: #facc15; /* sarı */
+}
+
+.template-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.template-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.template-btn:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: scale(1.03);
+}
+
+.template-btn.active {
+  border-color: #3b82f6;
+  background: #eff6ff;
+  box-shadow: 0 6px 18px rgba(59,130,246,0.25);
+  transform: scale(1.05);
+}
+
+.template-preview {
+  width: 100%;
+  height: 80px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.template-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #1f2937;
+  text-align: center;
+}
